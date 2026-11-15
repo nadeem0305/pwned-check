@@ -1,5 +1,7 @@
 # pwned-check
 
+**Live:** https://pwned-check.vercel.app (runs entirely in your browser; same k-anonymity check)
+
 Check whether a password has shown up in a data breach, without sending the password anywhere.
 
 It hashes the password with SHA-1 and sends only the first 5 characters of the hash to the
